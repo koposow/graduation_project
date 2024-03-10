@@ -1,0 +1,37 @@
+- name: Configure example instance
+  hosts: example
+  become: true
+
+  tasks:
+    - name: Update packages cache
+      apt:
+        update_cache: yes
+
+    - name: Install required packages
+      apt:
+        name: [package1, package2]
+        state: latest
+
+    - name: Configure firewall rules
+      ufw:
+        rule: allow
+        port: "{{ item }}"
+        comment: "Allow port {{ item }}"
+        state: enabled
+      with_items:
+        - 80
+        - 443
+
+    - name: Copy configuration file
+      copy:
+        src: files/example.conf
+        dest: /etc/example.conf
+        owner: root
+        group: root
+        mode: 0644
+
+    - name: Start example service
+      service:
+        name: example
+        state: started
+        enabled: yes
