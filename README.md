@@ -73,11 +73,12 @@
 ! [Дашборд](./files/dashbord_zabbix.png)
 
 ### Логи
-Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
+Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch. Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 
 ### Решение
-Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
-![web-server-1](https://clck.ru/39Z5pj)
+
+![web-server-1](./files/web-sever-1.png)
+![web-server-2](./files/web-sever-2.png)
 
 ### Сеть
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
