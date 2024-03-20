@@ -78,7 +78,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 ### Решение
 
 ![web-server-1](./files/web-sever-1.png)
-![web-server-2](./files/web-sever-2.png)
+![web-server-2](./files/web-server-2.png)
 
 ### Сеть
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
