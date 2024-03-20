@@ -75,7 +75,9 @@
 ### Логи
 Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
 
+### Решение
 Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
+![web-server-1](https://clck.ru/39Z5pj)
 
 ### Сеть
 Разверните один VPC. Сервера web, Elasticsearch поместите в приватные подсети. Сервера Zabbix, Kibana, application load balancer определите в публичную подсеть.
