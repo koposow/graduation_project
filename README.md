@@ -57,7 +57,7 @@
 
 ### Решение
 
- ## Сайт доступен также по адресу (koposow.ru)
+ ## Сайт доступен также по адресу [koposow.ru](koposow.ru)
 
 Файл [плейбук](./files/install_nginx.yml) для установки nginx, [плейбук](./files/update_index.yml) обновления статического сайта 
 ![Сайты](./files/site.png)
@@ -77,7 +77,7 @@
 
 Запрос http сделал скрипт pyton
 
-! [Дашборд](./files/dashbord_zabbix.png)
+![Дашборд](./files/dashbord_zabbix.png)
 
 ### Логи
 Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к веб-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch. Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
