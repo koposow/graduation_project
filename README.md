@@ -57,6 +57,8 @@
 
 ### Решение
 
+Сайт доступен также по адресу (koposow.ru)
+
 Файл [плейбук](./files/install_nginx.yml) для установки nginx, [плейбук](./files/update_index.yml) обновления статического сайта 
 ![Сайты](./files/site.png)
 
