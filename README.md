@@ -57,7 +57,7 @@
 
 ### Решение
 
- ## Сайт доступен также по адресу [koposow.ru](koposow.ru)
+ ## Сайт доступен также по адресу [koposow.ru](http://koposow.ru){:target="_blank"}
 
 Файл [плейбук](./files/install_nginx.yml) для установки nginx, [плейбук](./files/update_index.yml) обновления статического сайта 
 ![Сайты](./files/site.png)
