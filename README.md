@@ -59,8 +59,8 @@
 
  ## Сайт доступен также по адресу [koposow.ru](http://koposow.ru)
 
-Файл [плейбук](./files/install_nginx.yml) для установки nginx, [плейбук](./files/update_index.yml) обновления статического сайта 
-![Сайты](./files/site.png)
+Файл плейбук для установки nginx ![плейбук](./files/instal_nginx.png) с инвентарями FQDN ![FQDN](./files/inventory.png), [плейбук](./files/update_index.yml) обновления статического сайта 
+
 
 ## Балансир
 ![Балансир](./files/balancer.png)
